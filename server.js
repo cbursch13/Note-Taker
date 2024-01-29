@@ -1,12 +1,11 @@
 const express = require('express');
-const fs = require('fs');
 const path = require('path');
-
-var uniqid = require('uniqid');
+const fs = require('fs');
+const PORT = 3005;
 
 const app = express();
-const PORT = process.env.PORT || 3001;
 
+var uniqid = require('uniqid');
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -43,4 +42,7 @@ app.post('/api/notes', (req, res) => {
 
 app.get('*', (req, res) => res.sendFile(path.join(__dirname, './public/index.html')));
 
-app.listen(PORT, () => console.log(`App listening on PORT ${PORT}`));
+app.listen(PORT, () => {
+    console.log(`App listening at http://localhost:${PORT}`);
+});
+    
