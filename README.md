@@ -24,7 +24,9 @@
 
   ## Usage
   You can use this application to take personal notes to save for later.
+  
   https://drive.google.com/file/d/1likS-6CSrl7cedb1eTSsywDaHl3J_Fsj/view
+  
   ![Screenshot](assets/Note_Taker.png)
 
   ## How to Contribute
