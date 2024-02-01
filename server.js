@@ -3,7 +3,7 @@ const express = require('express');
 const path = require('path');
 const fs = require('fs');
 const uniqid = require('uniqid');
-const PORT = 3005;
+const PORT = process.env.PORT || 3005;
 
 // Create an Express application
 const app = express();
