@@ -27,7 +27,7 @@
   
   https://drive.google.com/file/d/1likS-6CSrl7cedb1eTSsywDaHl3J_Fsj/view
   
-  ![Screenshot](assets/Note_Taker.png)
+  ![Screenshot](assets/images/Note_Taker.png)
 
   ## How to Contribute
   [Contributor Covenant](https://www.contributor-covenant.org/)  
