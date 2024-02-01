@@ -23,7 +23,7 @@
   This application is ran through the command line. First navigate to the correct file path. Then run npm i to install the node packages. Then run node server.js to start the server and access the link to the application. Click the link within the command line and you will be able to run the application.
 
   ## Usage
-  You can use this application to take personal notes to save for later.
+  You can use this application to take personal notes for future use.
   
   https://drive.google.com/file/d/1likS-6CSrl7cedb1eTSsywDaHl3J_Fsj/view
   
